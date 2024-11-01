@@ -1,0 +1,732 @@
+[2024-10-31 19:41:46,810] [   DEBUG] _logging.py:94 - Connection: upgrade
+Upgrade: websocket
+[2024-10-31 19:41:46,810] [   DEBUG] _logging.py:94 - Upgrade: websocket
+Sec-WebSocket-Accept: BjADmEhkNxXuLkyYkYFC7IE3nvU=
+[2024-10-31 19:41:46,810] [   DEBUG] _logging.py:94 - Sec-WebSocket-Accept: BjADmEhkNxXuLkyYkYFC7IE3nvU=
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+[2024-10-31 19:41:46,811] [   DEBUG] _logging.py:94 - Strict-Transport-Security: max-age=31536000; includeSubDomains
+-----------------------
+[2024-10-31 19:41:46,816] [   DEBUG] _logging.py:94 - -----------------------
+WebSocket 连接成功
+++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+++Sent raw: b'\x88\x82\x04\xb6\xf3(\x07^'
+[2024-10-31 19:41:48,879] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+[2024-10-31 19:41:48,900] [   DEBUG] _logging.py:94 - ++Sent raw: b'\x88\x82\x04\xb6\xf3(\x07^'
+[2024-10-31 19:41:49,012] [   DEBUG] _logging.py:94 - ++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+++Sent decoded: fin=1 opcode=8 data=b'\x03\xe8'
+WebSocket 初始响应: {"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}
+重连成功
+[2024-10-31 19:42:12,636] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=8 data=b'\x03\xe8'
+正在连接到 WebSocket... (第 1 次尝试)
+--- request header ---
+[2024-10-31 19:43:07,947] [   DEBUG] _logging.py:71 - --- request header ---
+GET /api/ws HTTP/1.1
+Upgrade: websocket
+Host: 192.168.20.7
+Origin: https://192.168.20.7
+Sec-WebSocket-Key: ReCga8Ll4wysqEbgabAVFg==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+X-KVMD-User: admin
+X-KVMD-Passwd: admin
+
+
+[2024-10-31 19:43:08,134] [   DEBUG] _logging.py:72 - GET /api/ws HTTP/1.1
+Upgrade: websocket
+Host: 192.168.20.7
+Origin: https://192.168.20.7
+Sec-WebSocket-Key: ReCga8Ll4wysqEbgabAVFg==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+X-KVMD-User: admin
+X-KVMD-Passwd: admin
+
+
+-----------------------
+[2024-10-31 19:43:08,322] [   DEBUG] _logging.py:73 - -----------------------
+--- response header ---
+[2024-10-31 19:43:08,566] [   DEBUG] _logging.py:94 - --- response header ---
+HTTP/1.1 101 Switching Protocols
+[2024-10-31 19:43:08,993] [   DEBUG] _logging.py:94 - HTTP/1.1 101 Switching Protocols
+Server: nginx/1.27.1
+[2024-10-31 19:43:14,019] [   DEBUG] _logging.py:94 - Server: nginx/1.27.1
+Date: Thu, 31 Oct 2024 11:43:08 GMT
+[2024-10-31 19:44:15,567] [   DEBUG] _logging.py:94 - Date: Thu, 31 Oct 2024 11:43:08 GMT
+Connection: upgrade
+[2024-10-31 19:44:15,812] [   DEBUG] _logging.py:94 - Connection: upgrade
+识别的日发电量：
+日电量[MWh]47.17
+Upgrade: websocket
+[2024-10-31 19:45:03,003] [   DEBUG] _logging.py:94 - Upgrade: websocket
+
+OCR 结果已保存到 ocr_result_192_168_20_7.txt
+
+等待1秒后开始下一轮...
+Sec-WebSocket-Accept: SLMgl+wLtdoqjIPVVp6rLuVxoyU=
+[2024-10-31 19:45:20,464] [   DEBUG] _logging.py:94 - Sec-WebSocket-Accept: SLMgl+wLtdoqjIPVVp6rLuVxoyU=
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+[2024-10-31 19:45:20,773] [   DEBUG] _logging.py:94 - Strict-Transport-Security: max-age=31536000; includeSubDomains
+-----------------------
+
+=== 开始新一轮截图和识别 (2024-10-31 19:45:21) ===
+[2024-10-31 19:45:21,135] [   DEBUG] _logging.py:94 - -----------------------
+WebSocket 连接成功
+++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+[2024-10-31 19:45:23,382] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+[2024-10-31 19:45:24,473] [   DEBUG] _logging.py:94 - ++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+WebSocket 初始响应: {"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}
+重连成功
+++Sent raw: b'\x81\xa3\x19\xed\xf4\xa9b\xcf\x91\xdf|\x83\x80\xf6m\x94\x84\xcc;\xd7\xd4\x8bi\x84\x9a\xce;\xc1\xd4\x8b|\x9b\x91\xc7m\xcf\xce\x89b\x90\x89'
+[2024-10-31 19:45:30,650] [   DEBUG] _logging.py:94 - ++Sent raw: b'\x81\xa3\x19\xed\xf4\xa9b\xcf\x91\xdf|\x83\x80\xf6m\x94\x84\xcc;\xd7\xd4\x8bi\x84\x9a\xce;\xc1\xd4\x8b|\x9b\x91\xc7m\xcf\xce\x89b\x90\x89'
+++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+[2024-10-31 19:45:30,778] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+心跳发送错误: EOF occurred in violation of protocol (_ssl.c:2426)
+等待 1 秒后尝试重连...
+++Sent raw: b'\x88\x82Q\xc6\xa1\x90R.'
+[2024-10-31 19:45:32,161] [   DEBUG] _logging.py:94 - ++Sent raw: b'\x88\x82Q\xc6\xa1\x90R.'
+++Sent decoded: fin=1 opcode=8 data=b'\x03\xe8'
+[2024-10-31 19:45:32,337] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=8 data=b'\x03\xe8'
+正在连接到 WebSocket... (第 1 次尝试)
+--- request header ---
+[2024-10-31 19:45:33,698] [   DEBUG] _logging.py:71 - --- request header ---
+GET /api/ws HTTP/1.1
+Upgrade: websocket
+Host: 192.168.20.7
+Origin: https://192.168.20.7
+Sec-WebSocket-Key: phAf82V85cyQz6xuWDCAxQ==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+X-KVMD-User: admin
+X-KVMD-Passwd: admin
+
+
+[2024-10-31 19:45:33,857] [   DEBUG] _logging.py:72 - GET /api/ws HTTP/1.1
+Upgrade: websocket
+Host: 192.168.20.7
+Origin: https://192.168.20.7
+Sec-WebSocket-Key: phAf82V85cyQz6xuWDCAxQ==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+X-KVMD-User: admin
+X-KVMD-Passwd: admin
+
+
+-----------------------
+[2024-10-31 19:45:33,941] [   DEBUG] _logging.py:73 - -----------------------
+--- response header ---
+[2024-10-31 19:45:34,133] [   DEBUG] _logging.py:94 - --- response header ---
+快照已保存为 'snapshot_192_168_20_7.jpg'
+HTTP/1.1 101 Switching Protocols
+[2024-10-31 19:45:35,025] [   DEBUG] _logging.py:94 - HTTP/1.1 101 Switching Protocols
+Server: nginx/1.27.1
+[2024-10-31 19:45:35,718] [   DEBUG] _logging.py:94 - Server: nginx/1.27.1
+Date: Thu, 31 Oct 2024 11:45:34 GMT
+[2024-10-31 19:45:36,121] [   DEBUG] _logging.py:94 - Date: Thu, 31 Oct 2024 11:45:34 GMT
+Connection: upgrade
+[2024-10-31 19:45:36,569] [   DEBUG] _logging.py:94 - Connection: upgrade
+Upgrade: websocket
+[2024-10-31 19:45:36,948] [   DEBUG] _logging.py:94 - Upgrade: websocket
+Sec-WebSocket-Accept: PpMVOx7aGhmBhL/FkK74vu+5LBo=
+[2024-10-31 19:45:37,876] [   DEBUG] _logging.py:94 - Sec-WebSocket-Accept: PpMVOx7aGhmBhL/FkK74vu+5LBo=
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+[2024-10-31 19:45:42,046] [   DEBUG] _logging.py:94 - Strict-Transport-Security: max-age=31536000; includeSubDomains
+-----------------------
+[2024-10-31 19:45:43,398] [   DEBUG] _logging.py:94 - -----------------------
+WebSocket 连接成功
+++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+[2024-10-31 19:45:46,041] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+[2024-10-31 19:45:47,147] [   DEBUG] _logging.py:94 - ++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+WebSocket 初始响应: {"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}
+重连成功
+检测到连接可能断开，尝试重新连接...
+等待 1 秒后尝试重连...
+++Sent raw: b"\x81\xa3_z\x07\x96$Xb\xe0:\x14s\xc9+\x03w\xf3}@'\xb4/\x13i\xf1}V'\xb4:\x0cb\xf8+X=\xb6$\x07z"
+[2024-10-31 19:46:23,101] [   DEBUG] _logging.py:94 - ++Sent raw: b"\x81\xa3_z\x07\x96$Xb\xe0:\x14s\xc9+\x03w\xf3}@'\xb4/\x13i\xf1}V'\xb4:\x0cb\xf8+X=\xb6$\x07z"
+++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+[2024-10-31 19:46:23,187] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+++Sent raw: b'\x88\x82\x84R\xe4I\x87\xba'
+++Rcv raw: b'\x81~\x014{"event_type": "gpio_model_state", "event": {"scheme": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"switch": true, "pulse": {"delay": 0.0, "min_delay": 0.0, "max_delay": 0.0}, "hw": {"driver": "__gpio__", "pin": "5"}}}}, "view": {"header": {"title": [{"type": "label", "text": "GPIO"}]}, "table": []}}}'
+[2024-10-31 19:46:25,503] [   DEBUG] _logging.py:94 - ++Sent raw: b'\x88\x82\x84R\xe4I\x87\xba'
+++Sent decoded: fin=1 opcode=8 data=b'\x03\xe8'
+[2024-10-31 19:46:25,508] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81~\x014{"event_type": "gpio_model_state", "event": {"scheme": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"switch": true, "pulse": {"delay": 0.0, "min_delay": 0.0, "max_delay": 0.0}, "hw": {"driver": "__gpio__", "pin": "5"}}}}, "view": {"header": {"title": [{"type": "label", "text": "GPIO"}]}, "table": []}}}'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_model_state", "event": {"scheme": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"switch": true, "pulse": {"delay": 0.0, "min_delay": 0.0, "max_delay": 0.0}, "hw": {"driver": "__gpio__", "pin": "5"}}}}, "view": {"header": {"title": [{"type": "label", "text": "GPIO"}]}, "table": []}}}'
+[2024-10-31 19:46:25,550] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=8 data=b'\x03\xe8'
+[2024-10-31 19:46:38,005] [   DEBUG] _logging.py:94 - ++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_model_state", "event": {"scheme": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"switch": true, "pulse": {"delay": 0.0, "min_delay": 0.0, "max_delay": 0.0}, "hw": {"driver": "__gpio__", "pin": "5"}}}}, "view": {"header": {"title": [{"type": "label", "text": "GPIO"}]}, "table": []}}}'
+正在连接到 WebSocket... (第 1 次尝试)
+--- request header ---
+[2024-10-31 19:47:22,792] [   DEBUG] _logging.py:71 - --- request header ---
+GET /api/ws HTTP/1.1
+Upgrade: websocket
+Host: 192.168.20.7
+Origin: https://192.168.20.7
+Sec-WebSocket-Key: eKt4pA1Aqj91Xo7wgWmncQ==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+X-KVMD-User: admin
+X-KVMD-Passwd: admin
+
+
+[2024-10-31 19:47:23,056] [   DEBUG] _logging.py:72 - GET /api/ws HTTP/1.1
+Upgrade: websocket
+Host: 192.168.20.7
+Origin: https://192.168.20.7
+Sec-WebSocket-Key: eKt4pA1Aqj91Xo7wgWmncQ==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+X-KVMD-User: admin
+X-KVMD-Passwd: admin
+
+
+-----------------------
+[2024-10-31 19:47:23,349] [   DEBUG] _logging.py:73 - -----------------------
+--- response header ---
+[2024-10-31 19:47:23,761] [   DEBUG] _logging.py:94 - --- response header ---
+HTTP/1.1 101 Switching Protocols
+[2024-10-31 19:47:24,472] [   DEBUG] _logging.py:94 - HTTP/1.1 101 Switching Protocols
+Server: nginx/1.27.1
+[2024-10-31 19:47:27,526] [   DEBUG] _logging.py:94 - Server: nginx/1.27.1
+Date: Thu, 31 Oct 2024 11:47:23 GMT
+[2024-10-31 19:47:37,098] [   DEBUG] _logging.py:94 - Date: Thu, 31 Oct 2024 11:47:23 GMT
+Connection: upgrade
+[2024-10-31 19:49:28,275] [   DEBUG] _logging.py:94 - Connection: upgrade
+Upgrade: websocket
+[2024-10-31 19:49:28,408] [   DEBUG] _logging.py:94 - Upgrade: websocket
+识别的日发电量：
+Sec-WebSocket-Accept: AKdkGyk7rSpJ+TY2sqs0zMsfptc=
+日电量[MWh]47.17
+[2024-10-31 19:51:23,325] [   DEBUG] _logging.py:94 - Sec-WebSocket-Accept: AKdkGyk7rSpJ+TY2sqs0zMsfptc=
+
+OCR 结果已保存到 ocr_result_192_168_20_7.txt
+
+等待1秒后开始下一轮...
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+[2024-10-31 19:51:25,929] [   DEBUG] _logging.py:94 - Strict-Transport-Security: max-age=31536000; includeSubDomains
+-----------------------
+
+=== 开始新一轮截图和识别 (2024-10-31 19:51:26) ===
+[2024-10-31 19:51:26,509] [   DEBUG] _logging.py:94 - -----------------------
+WebSocket 连接成功
+++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+[2024-10-31 19:51:29,112] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+[2024-10-31 19:51:29,327] [   DEBUG] _logging.py:94 - ++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+WebSocket 初始响应: {"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}
+重连成功
+++Sent raw: b"\x81\xa3\xa0\x94\x1d{\xdb\xb6x\r\xc5\xfai$\xd4\xedm\x1e\x82\xae=Y\xd0\xfds\x1c\x82\xb8=Y\xc5\xe2x\x15\xd4\xb6'[\xdb\xe9`"
+[2024-10-31 19:51:32,926] [   DEBUG] _logging.py:94 - ++Sent raw: b"\x81\xa3\xa0\x94\x1d{\xdb\xb6x\r\xc5\xfai$\xd4\xedm\x1e\x82\xae=Y\xd0\xfds\x1c\x82\xb8=Y\xc5\xe2x\x15\xd4\xb6'[\xdb\xe9`"
+++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+[2024-10-31 19:51:33,176] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+心跳发送错误: EOF occurred in violation of protocol (_ssl.c:2426)
+等待 1 秒后尝试重连...
+++Sent raw: b'\x88\x82\xf0*C\xd7\xf3\xc2'
+[2024-10-31 19:51:35,739] [   DEBUG] _logging.py:94 - ++Sent raw: b'\x88\x82\xf0*C\xd7\xf3\xc2'
+++Sent decoded: fin=1 opcode=8 data=b'\x03\xe8'
+[2024-10-31 19:51:36,178] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=8 data=b'\x03\xe8'
+正在连接到 WebSocket... (第 1 次尝试)
+--- request header ---
+[2024-10-31 19:51:43,626] [   DEBUG] _logging.py:71 - --- request header ---
+GET /api/ws HTTP/1.1
+Upgrade: websocket
+Host: 192.168.20.7
+Origin: https://192.168.20.7
+Sec-WebSocket-Key: K6GGkASKPqcRJHKzwhNCqg==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+X-KVMD-User: admin
+X-KVMD-Passwd: admin
+
+
+[2024-10-31 19:51:44,479] [   DEBUG] _logging.py:72 - GET /api/ws HTTP/1.1
+Upgrade: websocket
+Host: 192.168.20.7
+Origin: https://192.168.20.7
+Sec-WebSocket-Key: K6GGkASKPqcRJHKzwhNCqg==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+X-KVMD-User: admin
+X-KVMD-Passwd: admin
+
+
+-----------------------
+[2024-10-31 19:51:45,352] [   DEBUG] _logging.py:73 - -----------------------
+--- response header ---
+[2024-10-31 19:51:46,435] [   DEBUG] _logging.py:94 - --- response header ---
+HTTP/1.1 101 Switching Protocols
+[2024-10-31 19:51:51,361] [   DEBUG] _logging.py:94 - HTTP/1.1 101 Switching Protocols
+快照已保存为 'snapshot_192_168_20_7.jpg'
+Server: nginx/1.27.1
+[2024-10-31 19:51:53,503] [   DEBUG] _logging.py:94 - Server: nginx/1.27.1
+Date: Thu, 31 Oct 2024 11:51:43 GMT
+[2024-10-31 19:51:53,850] [   DEBUG] _logging.py:94 - Date: Thu, 31 Oct 2024 11:51:43 GMT
+Connection: upgrade
+[2024-10-31 19:51:54,710] [   DEBUG] _logging.py:94 - Connection: upgrade
+Upgrade: websocket
+[2024-10-31 19:51:55,705] [   DEBUG] _logging.py:94 - Upgrade: websocket
+Sec-WebSocket-Accept: AiHRNRhBbf8f374Dyu9SGmB9trc=
+[2024-10-31 19:51:58,476] [   DEBUG] _logging.py:94 - Sec-WebSocket-Accept: AiHRNRhBbf8f374Dyu9SGmB9trc=
+检测到连接可能断开，尝试重新连接...
+等待 1 秒后尝试重连...
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+[2024-10-31 19:52:04,946] [   DEBUG] _logging.py:94 - Strict-Transport-Security: max-age=31536000; includeSubDomains
+-----------------------
+[2024-10-31 19:52:06,032] [   DEBUG] _logging.py:94 - -----------------------
+WebSocket 连接成功
+++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+[2024-10-31 19:52:08,469] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+[2024-10-31 19:52:09,345] [   DEBUG] _logging.py:94 - ++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+WebSocket 初始响应: {"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}
+重连成功
+正在连接到 WebSocket... (第 1 次尝试)
+--- request header ---
+[2024-10-31 19:52:23,430] [   DEBUG] _logging.py:71 - --- request header ---
+GET /api/ws HTTP/1.1
+Upgrade: websocket
+Host: 192.168.20.7
+Origin: https://192.168.20.7
+Sec-WebSocket-Key: 462NcpGBdjWv+zTd7YIkdA==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+X-KVMD-User: admin
+X-KVMD-Passwd: admin
+
+
+[2024-10-31 19:52:24,500] [   DEBUG] _logging.py:72 - GET /api/ws HTTP/1.1
+Upgrade: websocket
+Host: 192.168.20.7
+Origin: https://192.168.20.7
+Sec-WebSocket-Key: 462NcpGBdjWv+zTd7YIkdA==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+X-KVMD-User: admin
+X-KVMD-Passwd: admin
+
+
+-----------------------
+[2024-10-31 19:52:25,540] [   DEBUG] _logging.py:73 - -----------------------
+--- response header ---
+[2024-10-31 19:52:26,481] [   DEBUG] _logging.py:94 - --- response header ---
+HTTP/1.1 101 Switching Protocols
+[2024-10-31 19:52:30,814] [   DEBUG] _logging.py:94 - HTTP/1.1 101 Switching Protocols
+Server: nginx/1.27.1
+[2024-10-31 19:52:32,381] [   DEBUG] _logging.py:94 - Server: nginx/1.27.1
+Date: Thu, 31 Oct 2024 11:52:23 GMT
+[2024-10-31 19:52:33,434] [   DEBUG] _logging.py:94 - Date: Thu, 31 Oct 2024 11:52:23 GMT
+Connection: upgrade
+[2024-10-31 19:52:34,786] [   DEBUG] _logging.py:94 - Connection: upgrade
+Upgrade: websocket
+[2024-10-31 19:52:35,986] [   DEBUG] _logging.py:94 - Upgrade: websocket
+Sec-WebSocket-Accept: wVK3Jzrg1reupASHkiIOp3kP0f4=
+[2024-10-31 19:52:37,338] [   DEBUG] _logging.py:94 - Sec-WebSocket-Accept: wVK3Jzrg1reupASHkiIOp3kP0f4=
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+[2024-10-31 19:52:40,771] [   DEBUG] _logging.py:94 - Strict-Transport-Security: max-age=31536000; includeSubDomains
+-----------------------
+[2024-10-31 19:52:40,950] [   DEBUG] _logging.py:94 - -----------------------
+WebSocket 连接成功
+++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+[2024-10-31 19:52:41,980] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+[2024-10-31 19:52:43,627] [   DEBUG] _logging.py:94 - ++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+WebSocket 初始响应: {"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}
+重连成功
+++Sent raw: b'\x81\xa3A<\xc3_:\x1e\xa6)$R\xb7\x005E\xb3:c\x06\xe3}1U\xad8c\x10\xe3}$J\xa615\x1e\xf9\x7f:A\xbe'
+[2024-10-31 19:53:48,545] [   DEBUG] _logging.py:94 - ++Sent raw: b'\x81\xa3A<\xc3_:\x1e\xa6)$R\xb7\x005E\xb3:c\x06\xe3}1U\xad8c\x10\xe3}$J\xa615\x1e\xf9\x7f:A\xbe'
+++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+[2024-10-31 19:53:48,651] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+++Rcv raw: b'\x81~\x014{"event_type": "gpio_model_state", "event": {"scheme": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"switch": true, "pulse": {"delay": 0.0, "min_delay": 0.0, "max_delay": 0.0}, "hw": {"driver": "__gpio__", "pin": "5"}}}}, "view": {"header": {"title": [{"type": "label", "text": "GPIO"}]}, "table": []}}}'
+[2024-10-31 19:53:48,720] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81~\x014{"event_type": "gpio_model_state", "event": {"scheme": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"switch": true, "pulse": {"delay": 0.0, "min_delay": 0.0, "max_delay": 0.0}, "hw": {"driver": "__gpio__", "pin": "5"}}}}, "view": {"header": {"title": [{"type": "label", "text": "GPIO"}]}, "table": []}}}'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_model_state", "event": {"scheme": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"switch": true, "pulse": {"delay": 0.0, "min_delay": 0.0, "max_delay": 0.0}, "hw": {"driver": "__gpio__", "pin": "5"}}}}, "view": {"header": {"title": [{"type": "label", "text": "GPIO"}]}, "table": []}}}'
+[2024-10-31 19:53:51,790] [   DEBUG] _logging.py:94 - ++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_model_state", "event": {"scheme": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"switch": true, "pulse": {"delay": 0.0, "min_delay": 0.0, "max_delay": 0.0}, "hw": {"driver": "__gpio__", "pin": "5"}}}}, "view": {"header": {"title": [{"type": "label", "text": "GPIO"}]}, "table": []}}}'
+检测到连接可能断开，尝试重新连接...
+等待 1 秒后尝试重连...
+++Sent raw: b'\x81\xa3\x95\x8b\xd9\xb1\xee\xa9\xbc\xc7\xf0\xe5\xad\xee\xe1\xf2\xa9\xd4\xb7\xb1\xf9\x93\xe5\xe2\xb7\xd6\xb7\xa7\xf9\x93\xf0\xfd\xbc\xdf\xe1\xa9\xe3\x91\xee\xf6\xa4'
+[2024-10-31 19:58:50,642] [   DEBUG] _logging.py:94 - ++Sent raw: b'\x81\xa3\x95\x8b\xd9\xb1\xee\xa9\xbc\xc7\xf0\xe5\xad\xee\xe1\xf2\xa9\xd4\xb7\xb1\xf9\x93\xe5\xe2\xb7\xd6\xb7\xa7\xf9\x93\xf0\xfd\xbc\xdf\xe1\xa9\xe3\x91\xee\xf6\xa4'
+++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+[2024-10-31 19:58:50,853] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+心跳发送错误: EOF occurred in violation of protocol (_ssl.c:2426)
+等待 1 秒后尝试重连...
+++Sent raw: b'\x88\x82\x94\xb10\xa0\x97Y'
+[2024-10-31 19:58:51,914] [   DEBUG] _logging.py:94 - ++Sent raw: b'\x88\x82\x94\xb10\xa0\x97Y'
+正在连接到 WebSocket... (第 1 次尝试)
+++Sent decoded: fin=1 opcode=8 data=b'\x03\xe8'
+[2024-10-31 19:58:52,842] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=8 data=b'\x03\xe8'
+--- request header ---
+[2024-10-31 19:59:08,034] [   DEBUG] _logging.py:71 - --- request header ---
+GET /api/ws HTTP/1.1
+Upgrade: websocket
+Host: 192.168.20.7
+Origin: https://192.168.20.7
+Sec-WebSocket-Key: NfUdRkcZdYxjvVcsApWHcA==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+X-KVMD-User: admin
+X-KVMD-Passwd: admin
+
+
+[2024-10-31 19:59:09,385] [   DEBUG] _logging.py:72 - GET /api/ws HTTP/1.1
+Upgrade: websocket
+Host: 192.168.20.7
+Origin: https://192.168.20.7
+Sec-WebSocket-Key: NfUdRkcZdYxjvVcsApWHcA==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+X-KVMD-User: admin
+X-KVMD-Passwd: admin
+
+
+-----------------------
+[2024-10-31 19:59:11,051] [   DEBUG] _logging.py:73 - -----------------------
+--- response header ---
+[2024-10-31 20:00:16,708] [   DEBUG] _logging.py:94 - --- response header ---
+HTTP/1.1 101 Switching Protocols
+[2024-10-31 20:00:17,081] [   DEBUG] _logging.py:94 - HTTP/1.1 101 Switching Protocols
+识别的日发电量：
+日电量[MWh]47.17
+Server: nginx/1.27.1
+
+OCR 结果已保存到 ocr_result_192_168_20_7.txt
+[2024-10-31 20:02:29,395] [   DEBUG] _logging.py:94 - Server: nginx/1.27.1
+Date: Thu, 31 Oct 2024 11:59:07 GMT
+
+等待1秒后开始下一轮...
+[2024-10-31 20:03:06,896] [   DEBUG] _logging.py:94 - Date: Thu, 31 Oct 2024 11:59:07 GMT
+Connection: upgrade
+[2024-10-31 20:03:07,046] [   DEBUG] _logging.py:94 - Connection: upgrade
+Upgrade: websocket
+[2024-10-31 20:03:07,336] [   DEBUG] _logging.py:94 - Upgrade: websocket
+Sec-WebSocket-Accept: u/YdGRa7H13nxWTbIbPZjGnqsas=
+[2024-10-31 20:03:07,481] [   DEBUG] _logging.py:94 - Sec-WebSocket-Accept: u/YdGRa7H13nxWTbIbPZjGnqsas=
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+[2024-10-31 20:03:07,609] [   DEBUG] _logging.py:94 - Strict-Transport-Security: max-age=31536000; includeSubDomains
+-----------------------
+[2024-10-31 20:03:07,792] [   DEBUG] _logging.py:94 - -----------------------
+WebSocket 连接成功
+
+=== 开始新一轮截图和识别 (2024-10-31 20:03:07) ===
+++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+[2024-10-31 20:03:08,299] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+[2024-10-31 20:03:08,977] [   DEBUG] _logging.py:94 - ++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+WebSocket 初始响应: {"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}
+重连成功
+正在连接到 WebSocket... (第 1 次尝试)
+--- request header ---
+[2024-10-31 20:03:16,349] [   DEBUG] _logging.py:71 - --- request header ---
+GET /api/ws HTTP/1.1
+Upgrade: websocket
+Host: 192.168.20.7
+Origin: https://192.168.20.7
+Sec-WebSocket-Key: RTPqopqnrd852XW37Dw2Yw==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+X-KVMD-User: admin
+X-KVMD-Passwd: admin
+
+
+[2024-10-31 20:03:17,114] [   DEBUG] _logging.py:72 - GET /api/ws HTTP/1.1
+Upgrade: websocket
+Host: 192.168.20.7
+Origin: https://192.168.20.7
+Sec-WebSocket-Key: RTPqopqnrd852XW37Dw2Yw==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+X-KVMD-User: admin
+X-KVMD-Passwd: admin
+
+
+-----------------------
+[2024-10-31 20:03:17,586] [   DEBUG] _logging.py:73 - -----------------------
+--- response header ---
+[2024-10-31 20:03:18,022] [   DEBUG] _logging.py:94 - --- response header ---
+HTTP/1.1 101 Switching Protocols
+[2024-10-31 20:03:19,982] [   DEBUG] _logging.py:94 - HTTP/1.1 101 Switching Protocols
+Server: nginx/1.27.1
+[2024-10-31 20:03:21,166] [   DEBUG] _logging.py:94 - Server: nginx/1.27.1
+Date: Thu, 31 Oct 2024 12:03:16 GMT
+[2024-10-31 20:03:21,984] [   DEBUG] _logging.py:94 - Date: Thu, 31 Oct 2024 12:03:16 GMT
+Connection: upgrade
+[2024-10-31 20:03:24,593] [   DEBUG] _logging.py:94 - Connection: upgrade
+Upgrade: websocket
+[2024-10-31 20:03:24,899] [   DEBUG] _logging.py:94 - Upgrade: websocket
+Sec-WebSocket-Accept: x8/r+i5qRllm/vVTBFofXt4NIWQ=
+[2024-10-31 20:03:25,651] [   DEBUG] _logging.py:94 - Sec-WebSocket-Accept: x8/r+i5qRllm/vVTBFofXt4NIWQ=
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+[2024-10-31 20:03:25,941] [   DEBUG] _logging.py:94 - Strict-Transport-Security: max-age=31536000; includeSubDomains
+-----------------------
+[2024-10-31 20:03:26,320] [   DEBUG] _logging.py:94 - -----------------------
+WebSocket 连接成功
+++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+[2024-10-31 20:03:28,611] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+[2024-10-31 20:03:29,459] [   DEBUG] _logging.py:94 - ++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+WebSocket 初始响应: {"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}
+重连成功
+快照已保存为 'snapshot_192_168_20_7.jpg'
+++Sent raw: b'\x81\xa3\xc8\xa9\xe4\xcf\xb3\x8b\x81\xb9\xad\xc7\x90\x90\xbc\xd0\x94\xaa\xea\x93\xc4\xed\xb8\xc0\x8a\xa8\xea\x85\xc4\xed\xad\xdf\x81\xa1\xbc\x8b\xde\xef\xb3\xd4\x99'
+[2024-10-31 20:03:36,182] [   DEBUG] _logging.py:94 - ++Sent raw: b'\x81\xa3\xc8\xa9\xe4\xcf\xb3\x8b\x81\xb9\xad\xc7\x90\x90\xbc\xd0\x94\xaa\xea\x93\xc4\xed\xb8\xc0\x8a\xa8\xea\x85\xc4\xed\xad\xdf\x81\xa1\xbc\x8b\xde\xef\xb3\xd4\x99'
+++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+[2024-10-31 20:03:36,290] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+++Rcv raw: b'\x81~\x014{"event_type": "gpio_model_state", "event": {"scheme": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"switch": true, "pulse": {"delay": 0.0, "min_delay": 0.0, "max_delay": 0.0}, "hw": {"driver": "__gpio__", "pin": "5"}}}}, "view": {"header": {"title": [{"type": "label", "text": "GPIO"}]}, "table": []}}}'
+[2024-10-31 20:03:36,681] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81~\x014{"event_type": "gpio_model_state", "event": {"scheme": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"switch": true, "pulse": {"delay": 0.0, "min_delay": 0.0, "max_delay": 0.0}, "hw": {"driver": "__gpio__", "pin": "5"}}}}, "view": {"header": {"title": [{"type": "label", "text": "GPIO"}]}, "table": []}}}'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_model_state", "event": {"scheme": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"switch": true, "pulse": {"delay": 0.0, "min_delay": 0.0, "max_delay": 0.0}, "hw": {"driver": "__gpio__", "pin": "5"}}}}, "view": {"header": {"title": [{"type": "label", "text": "GPIO"}]}, "table": []}}}'
+[2024-10-31 20:03:37,089] [   DEBUG] _logging.py:94 - ++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_model_state", "event": {"scheme": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"switch": true, "pulse": {"delay": 0.0, "min_delay": 0.0, "max_delay": 0.0}, "hw": {"driver": "__gpio__", "pin": "5"}}}}, "view": {"header": {"title": [{"type": "label", "text": "GPIO"}]}, "table": []}}}'
+++Sent raw: b'\x81\xa3g\xd5\xb2\xc9\x1c\xf7\xd7\xbf\x02\xbb\xc6\x96\x13\xac\xc2\xacE\xef\x92\xeb\x17\xbc\xdc\xaeE\xf9\x92\xeb\x02\xa3\xd7\xa7\x13\xf7\x88\xe9\x1c\xa8\xcf'
+[2024-10-31 20:03:50,228] [   DEBUG] _logging.py:94 - ++Sent raw: b'\x81\xa3g\xd5\xb2\xc9\x1c\xf7\xd7\xbf\x02\xbb\xc6\x96\x13\xac\xc2\xacE\xef\x92\xeb\x17\xbc\xdc\xaeE\xf9\x92\xeb\x02\xa3\xd7\xa7\x13\xf7\x88\xe9\x1c\xa8\xcf'
+++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+[2024-10-31 20:03:51,111] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+++Rcv raw: b'\x81~\x01q{"event_type": "hid_state", "event": {"online": true, "busy": false, "connected": null, "keyboard": {"online": true, "leds": {"caps": true, "scroll": false, "num": true}, "outputs": {"available": [], "active": ""}}, "mouse": {"outputs": {"available": [], "active": ""}, "online": true, "absolute": true}, "jiggler": {"enabled": false, "active": false, "interval": 60}}}'
+[2024-10-31 20:03:53,272] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81~\x01q{"event_type": "hid_state", "event": {"online": true, "busy": false, "connected": null, "keyboard": {"online": true, "leds": {"caps": true, "scroll": false, "num": true}, "outputs": {"available": [], "active": ""}}, "mouse": {"outputs": {"available": [], "active": ""}, "online": true, "absolute": true}, "jiggler": {"enabled": false, "active": false, "interval": 60}}}'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "hid_state", "event": {"online": true, "busy": false, "connected": null, "keyboard": {"online": true, "leds": {"caps": true, "scroll": false, "num": true}, "outputs": {"available": [], "active": ""}}, "mouse": {"outputs": {"available": [], "active": ""}, "online": true, "absolute": true}, "jiggler": {"enabled": false, "active": false, "interval": 60}}}'
+[2024-10-31 20:03:54,562] [   DEBUG] _logging.py:94 - ++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "hid_state", "event": {"online": true, "busy": false, "connected": null, "keyboard": {"online": true, "leds": {"caps": true, "scroll": false, "num": true}, "outputs": {"available": [], "active": ""}}, "mouse": {"outputs": {"available": [], "active": ""}, "online": true, "absolute": true}, "jiggler": {"enabled": false, "active": false, "interval": 60}}}'
+++Sent raw: b'\x81\xa3\xa4\xedC\x04\xdf\xcf&r\xc1\x837[\xd0\x943a\x86\xd7c&\xd4\x84-c\x86\xc1c&\xc1\x9b&j\xd0\xcfy$\xdf\x90>'
+[2024-10-31 20:04:10,672] [   DEBUG] _logging.py:94 - ++Sent raw: b'\x81\xa3\xa4\xedC\x04\xdf\xcf&r\xc1\x837[\xd0\x943a\x86\xd7c&\xd4\x84-c\x86\xc1c&\xc1\x9b&j\xd0\xcfy$\xdf\x90>'
+++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+[2024-10-31 20:04:11,660] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+++Rcv raw: b'\x81~\x01U{"event_type": "hid_keymaps_state", "event": {"keymaps": {"default": "en-us", "available": ["ar", "bepo", "cz", "da", "de", "de-ch", "en-gb", "en-us", "en-us-altgr-intl", "es", "et", "fi", "fo", "fr", "fr-be", "fr-ca", "fr-ch", "hr", "hu", "is", "it", "ja", "lt", "lv", "mk", "nl", "no", "pl", "pt", "pt-br", "ru", "sl", "sv", "th", "tr"]}}}'
+[2024-10-31 20:04:13,531] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81~\x01U{"event_type": "hid_keymaps_state", "event": {"keymaps": {"default": "en-us", "available": ["ar", "bepo", "cz", "da", "de", "de-ch", "en-gb", "en-us", "en-us-altgr-intl", "es", "et", "fi", "fo", "fr", "fr-be", "fr-ca", "fr-ch", "hr", "hu", "is", "it", "ja", "lt", "lv", "mk", "nl", "no", "pl", "pt", "pt-br", "ru", "sl", "sv", "th", "tr"]}}}'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "hid_keymaps_state", "event": {"keymaps": {"default": "en-us", "available": ["ar", "bepo", "cz", "da", "de", "de-ch", "en-gb", "en-us", "en-us-altgr-intl", "es", "et", "fi", "fo", "fr", "fr-be", "fr-ca", "fr-ch", "hr", "hu", "is", "it", "ja", "lt", "lv", "mk", "nl", "no", "pl", "pt", "pt-br", "ru", "sl", "sv", "th", "tr"]}}}'
+[2024-10-31 20:04:14,691] [   DEBUG] _logging.py:94 - ++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "hid_keymaps_state", "event": {"keymaps": {"default": "en-us", "available": ["ar", "bepo", "cz", "da", "de", "de-ch", "en-gb", "en-us", "en-us-altgr-intl", "es", "et", "fi", "fo", "fr", "fr-be", "fr-ca", "fr-ch", "hr", "hu", "is", "it", "ja", "lt", "lv", "mk", "nl", "no", "pl", "pt", "pt-br", "ru", "sl", "sv", "th", "tr"]}}}'
+检测到连接可能断开，尝试重新连接...
+等待 1 秒后尝试重连...
+++Sent raw: b'\x81\xa3\x1e\xc8j\xe7e\xea\x0f\x91{\xa6\x1e\xb8j\xb1\x1a\x82<\xf2J\xc5n\xa1\x04\x80<\xe4J\xc5{\xbe\x0f\x89j\xeaP\xc7e\xb5\x17'
+[2024-10-31 20:05:23,367] [   DEBUG] _logging.py:94 - ++Sent raw: b'\x81\xa3\x1e\xc8j\xe7e\xea\x0f\x91{\xa6\x1e\xb8j\xb1\x1a\x82<\xf2J\xc5n\xa1\x04\x80<\xe4J\xc5{\xbe\x0f\x89j\xeaP\xc7e\xb5\x17'
+++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+[2024-10-31 20:05:23,389] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+++Rcv raw: b'\x81n{"event_type": "atx_state", "event": {"enabled": true, "busy": false, "leds": {"power": false, "hdd": false}}}'
+[2024-10-31 20:05:23,406] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81n{"event_type": "atx_state", "event": {"enabled": true, "busy": false, "leds": {"power": false, "hdd": false}}}'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "atx_state", "event": {"enabled": true, "busy": false, "leds": {"power": false, "hdd": false}}}'
+[2024-10-31 20:05:23,407] [   DEBUG] _logging.py:94 - ++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "atx_state", "event": {"enabled": true, "busy": false, "leds": {"power": false, "hdd": false}}}'
+++Sent raw: b'\x88\x82D\x02:\x0bG\xea'
+[2024-10-31 20:05:25,013] [   DEBUG] _logging.py:94 - ++Sent raw: b'\x88\x82D\x02:\x0bG\xea'
+++Sent decoded: fin=1 opcode=8 data=b'\x03\xe8'
+[2024-10-31 20:05:25,096] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=8 data=b'\x03\xe8'
+正在连接到 WebSocket... (第 1 次尝试)
+--- request header ---
+[2024-10-31 20:06:02,273] [   DEBUG] _logging.py:71 - --- request header ---
+GET /api/ws HTTP/1.1
+Upgrade: websocket
+Host: 192.168.20.7
+Origin: https://192.168.20.7
+Sec-WebSocket-Key: N0dsTTLvMUeyN+yJEBkj8g==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+X-KVMD-User: admin
+X-KVMD-Passwd: admin
+
+
+[2024-10-31 20:06:02,381] [   DEBUG] _logging.py:72 - GET /api/ws HTTP/1.1
+Upgrade: websocket
+Host: 192.168.20.7
+Origin: https://192.168.20.7
+Sec-WebSocket-Key: N0dsTTLvMUeyN+yJEBkj8g==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+X-KVMD-User: admin
+X-KVMD-Passwd: admin
+
+
+-----------------------
+[2024-10-31 20:06:02,557] [   DEBUG] _logging.py:73 - -----------------------
+--- response header ---
+[2024-10-31 20:06:02,712] [   DEBUG] _logging.py:94 - --- response header ---
+HTTP/1.1 101 Switching Protocols
+[2024-10-31 20:06:02,910] [   DEBUG] _logging.py:94 - HTTP/1.1 101 Switching Protocols
+Server: nginx/1.27.1
+[2024-10-31 20:06:03,093] [   DEBUG] _logging.py:94 - Server: nginx/1.27.1
+Date: Thu, 31 Oct 2024 12:06:02 GMT
+[2024-10-31 20:06:03,262] [   DEBUG] _logging.py:94 - Date: Thu, 31 Oct 2024 12:06:02 GMT
+Connection: upgrade
+[2024-10-31 20:06:03,502] [   DEBUG] _logging.py:94 - Connection: upgrade
+Upgrade: websocket
+[2024-10-31 20:06:03,711] [   DEBUG] _logging.py:94 - Upgrade: websocket
+Sec-WebSocket-Accept: okQmUuOQJXklaFWmeTz/fodSRKk=
+[2024-10-31 20:06:04,019] [   DEBUG] _logging.py:94 - Sec-WebSocket-Accept: okQmUuOQJXklaFWmeTz/fodSRKk=
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+[2024-10-31 20:06:04,250] [   DEBUG] _logging.py:94 - Strict-Transport-Security: max-age=31536000; includeSubDomains
+-----------------------
+[2024-10-31 20:06:20,558] [   DEBUG] _logging.py:94 - -----------------------
+WebSocket 连接成功
+++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+[2024-10-31 20:06:21,094] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+++Sent raw: b'\x81\xa3\x15\xf7s\xb0n\xd5\x16\xc6p\x99\x07\xefa\x8e\x03\xd57\xcdS\x92e\x9e\x1d\xd77\xdbS\x92p\x81\x16\xdea\xd5I\x90n\x8a\x0e'
+[2024-10-31 20:07:13,995] [   DEBUG] _logging.py:94 - ++Sent raw: b'\x81\xa3\x15\xf7s\xb0n\xd5\x16\xc6p\x99\x07\xefa\x8e\x03\xd57\xcdS\x92e\x9e\x1d\xd77\xdbS\x92p\x81\x16\xdea\xd5I\x90n\x8a\x0e'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+[2024-10-31 20:07:14,013] [   DEBUG] _logging.py:94 - ++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+WebSocket 初始响应: {"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}
+[2024-10-31 20:07:14,481] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+识别的日发电量：
+重连成功
+日电量[MWh]47.17
+
+OCR 结果已保存到 ocr_result_192_168_20_7.txt
+++Rcv raw: b'\x81~\x014{"event_type": "gpio_model_state", "event": {"scheme": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"switch": true, "pulse": {"delay": 0.0, "min_delay": 0.0, "max_delay": 0.0}, "hw": {"driver": "__gpio__", "pin": "5"}}}}, "view": {"header": {"title": [{"type": "label", "text": "GPIO"}]}, "table": []}}}'
+
+等待1秒后开始下一轮...
+[2024-10-31 20:07:15,553] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81~\x014{"event_type": "gpio_model_state", "event": {"scheme": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"switch": true, "pulse": {"delay": 0.0, "min_delay": 0.0, "max_delay": 0.0}, "hw": {"driver": "__gpio__", "pin": "5"}}}}, "view": {"header": {"title": [{"type": "label", "text": "GPIO"}]}, "table": []}}}'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_model_state", "event": {"scheme": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"switch": true, "pulse": {"delay": 0.0, "min_delay": 0.0, "max_delay": 0.0}, "hw": {"driver": "__gpio__", "pin": "5"}}}}, "view": {"header": {"title": [{"type": "label", "text": "GPIO"}]}, "table": []}}}'
+[2024-10-31 20:07:15,609] [   DEBUG] _logging.py:94 - ++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_model_state", "event": {"scheme": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"switch": true, "pulse": {"delay": 0.0, "min_delay": 0.0, "max_delay": 0.0}, "hw": {"driver": "__gpio__", "pin": "5"}}}}, "view": {"header": {"title": [{"type": "label", "text": "GPIO"}]}, "table": []}}}'
+
+=== 开始新一轮截图和识别 (2024-10-31 20:07:16) ===
+快照已保存为 'snapshot_192_168_20_7.jpg'
+++Sent raw: b'\x81\xa3\n%\x97jq\x07\xf2\x1coK\xe35~\\\xe7\x0f(\x1f\xb7HzL\xf9\r(\t\xb7HoS\xf2\x04~\x07\xadJqX\xea'
+[2024-10-31 20:07:45,081] [   DEBUG] _logging.py:94 - ++Sent raw: b'\x81\xa3\n%\x97jq\x07\xf2\x1coK\xe35~\\\xe7\x0f(\x1f\xb7HzL\xf9\r(\t\xb7HoS\xf2\x04~\x07\xadJqX\xea'
+++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+[2024-10-31 20:07:45,147] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+心跳发送错误: EOF occurred in violation of protocol (_ssl.c:2426)
+等待 1 秒后尝试重连...
+++Sent raw: b'\x88\x82=\xc5\xb5\xc5>-'
+[2024-10-31 20:07:47,748] [   DEBUG] _logging.py:94 - ++Sent raw: b'\x88\x82=\xc5\xb5\xc5>-'
+检测到连接可能断开，尝试重新连接...
+等待 1 秒后尝试重连...
+++Sent decoded: fin=1 opcode=8 data=b'\x03\xe8'
+[2024-10-31 20:08:13,401] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=8 data=b'\x03\xe8'
+正在连接到 WebSocket... (第 1 次尝试)
+--- request header ---
+[2024-10-31 20:09:05,871] [   DEBUG] _logging.py:71 - --- request header ---
+GET /api/ws HTTP/1.1
+Upgrade: websocket
+Host: 192.168.20.7
+Origin: https://192.168.20.7
+Sec-WebSocket-Key: RVMiHh3+6WI8j/xNsT5Tkw==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+X-KVMD-User: admin
+X-KVMD-Passwd: admin
+
+
+[2024-10-31 20:09:06,384] [   DEBUG] _logging.py:72 - GET /api/ws HTTP/1.1
+Upgrade: websocket
+Host: 192.168.20.7
+Origin: https://192.168.20.7
+Sec-WebSocket-Key: RVMiHh3+6WI8j/xNsT5Tkw==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+X-KVMD-User: admin
+X-KVMD-Passwd: admin
+
+
+-----------------------
+[2024-10-31 20:09:06,698] [   DEBUG] _logging.py:73 - -----------------------
+--- response header ---
+[2024-10-31 20:09:07,201] [   DEBUG] _logging.py:94 - --- response header ---
+HTTP/1.1 101 Switching Protocols
+[2024-10-31 20:09:07,789] [   DEBUG] _logging.py:94 - HTTP/1.1 101 Switching Protocols
+Server: nginx/1.27.1
+[2024-10-31 20:09:08,497] [   DEBUG] _logging.py:94 - Server: nginx/1.27.1
+Date: Thu, 31 Oct 2024 12:09:06 GMT
+[2024-10-31 20:09:09,908] [   DEBUG] _logging.py:94 - Date: Thu, 31 Oct 2024 12:09:06 GMT
+Connection: upgrade
+[2024-10-31 20:09:11,207] [   DEBUG] _logging.py:94 - Connection: upgrade
+Upgrade: websocket
+[2024-10-31 20:09:54,321] [   DEBUG] _logging.py:94 - Upgrade: websocket
+Sec-WebSocket-Accept: ikja3ikVfO6RBO3/IgqgImRITt4=
+[2024-10-31 20:11:01,676] [   DEBUG] _logging.py:94 - Sec-WebSocket-Accept: ikja3ikVfO6RBO3/IgqgImRITt4=
+识别的日发电量：
+日电量[MWh]47.17
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+OCR 结果已保存到 ocr_result_192_168_20_7.txt
+[2024-10-31 20:11:02,136] [   DEBUG] _logging.py:94 - Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+等待1秒后开始下一轮...
+-----------------------
+[2024-10-31 20:11:03,882] [   DEBUG] _logging.py:94 - -----------------------
+WebSocket 连接成功
+++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+[2024-10-31 20:11:04,669] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+
+=== 开始新一轮截图和识别 (2024-10-31 20:11:04) ===
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+[2024-10-31 20:11:05,122] [   DEBUG] _logging.py:94 - ++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+WebSocket 初始响应: {"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}
+重连成功
+正在连接到 WebSocket... (第 1 次尝试)
+--- request header ---
+[2024-10-31 20:11:07,315] [   DEBUG] _logging.py:71 - --- request header ---
+GET /api/ws HTTP/1.1
+Upgrade: websocket
+Host: 192.168.20.7
+Origin: https://192.168.20.7
+Sec-WebSocket-Key: 7p3GPe7HLOeTqrOzwKETEg==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+X-KVMD-User: admin
+X-KVMD-Passwd: admin
+
+
+[2024-10-31 20:11:07,449] [   DEBUG] _logging.py:72 - GET /api/ws HTTP/1.1
+Upgrade: websocket
+Host: 192.168.20.7
+Origin: https://192.168.20.7
+Sec-WebSocket-Key: 7p3GPe7HLOeTqrOzwKETEg==
+Sec-WebSocket-Version: 13
+Connection: Upgrade
+X-KVMD-User: admin
+X-KVMD-Passwd: admin
+
+
+-----------------------
+[2024-10-31 20:11:07,620] [   DEBUG] _logging.py:73 - -----------------------
+--- response header ---
+[2024-10-31 20:11:07,926] [   DEBUG] _logging.py:94 - --- response header ---
+HTTP/1.1 101 Switching Protocols
+[2024-10-31 20:11:08,319] [   DEBUG] _logging.py:94 - HTTP/1.1 101 Switching Protocols
+Server: nginx/1.27.1
+[2024-10-31 20:11:08,652] [   DEBUG] _logging.py:94 - Server: nginx/1.27.1
+Date: Thu, 31 Oct 2024 12:11:07 GMT
+[2024-10-31 20:11:09,104] [   DEBUG] _logging.py:94 - Date: Thu, 31 Oct 2024 12:11:07 GMT
+Connection: upgrade
+[2024-10-31 20:11:09,515] [   DEBUG] _logging.py:94 - Connection: upgrade
+Upgrade: websocket
+[2024-10-31 20:11:10,234] [   DEBUG] _logging.py:94 - Upgrade: websocket
+Sec-WebSocket-Accept: IPJyfX+6jjAbEcThcHBDD9uAKS4=
+[2024-10-31 20:11:10,343] [   DEBUG] _logging.py:94 - Sec-WebSocket-Accept: IPJyfX+6jjAbEcThcHBDD9uAKS4=
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+[2024-10-31 20:11:10,551] [   DEBUG] _logging.py:94 - Strict-Transport-Security: max-age=31536000; includeSubDomains
+-----------------------
+[2024-10-31 20:11:10,693] [   DEBUG] _logging.py:94 - -----------------------
+WebSocket 连接成功
+++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+[2024-10-31 20:11:11,051] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81~\x00\x88{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+[2024-10-31 20:11:11,261] [   DEBUG] _logging.py:94 - ++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}'
+WebSocket 初始响应: {"event_type": "gpio_state", "event": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"online": true, "state": true, "busy": false}}}}
+重连成功
+快照已保存为 'snapshot_192_168_20_7.jpg'
+++Sent raw: b'\x81\xa3c\xfa/d\x18\xd8J\x12\x06\x94[;\x17\x83_\x01A\xc0\x0fF\x13\x93A\x03A\xd6\x0fF\x06\x8cJ\n\x17\xd8\x15D\x18\x87R'
+[2024-10-31 20:11:27,089] [   DEBUG] _logging.py:94 - ++Sent raw: b'\x81\xa3c\xfa/d\x18\xd8J\x12\x06\x94[;\x17\x83_\x01A\xc0\x0fF\x13\x93A\x03A\xd6\x0fF\x06\x8cJ\n\x17\xd8\x15D\x18\x87R'
+++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+[2024-10-31 20:11:27,105] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+++Rcv raw: b'\x81~\x014{"event_type": "gpio_model_state", "event": {"scheme": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"switch": true, "pulse": {"delay": 0.0, "min_delay": 0.0, "max_delay": 0.0}, "hw": {"driver": "__gpio__", "pin": "5"}}}}, "view": {"header": {"title": [{"type": "label", "text": "GPIO"}]}, "table": []}}}'
+[2024-10-31 20:11:27,150] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81~\x014{"event_type": "gpio_model_state", "event": {"scheme": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"switch": true, "pulse": {"delay": 0.0, "min_delay": 0.0, "max_delay": 0.0}, "hw": {"driver": "__gpio__", "pin": "5"}}}}, "view": {"header": {"title": [{"type": "label", "text": "GPIO"}]}, "table": []}}}'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_model_state", "event": {"scheme": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"switch": true, "pulse": {"delay": 0.0, "min_delay": 0.0, "max_delay": 0.0}, "hw": {"driver": "__gpio__", "pin": "5"}}}}, "view": {"header": {"title": [{"type": "label", "text": "GPIO"}]}, "table": []}}}'
+[2024-10-31 20:11:28,661] [   DEBUG] _logging.py:94 - ++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "gpio_model_state", "event": {"scheme": {"inputs": {}, "outputs": {"__v3_usb_breaker__": {"switch": true, "pulse": {"delay": 0.0, "min_delay": 0.0, "max_delay": 0.0}, "hw": {"driver": "__gpio__", "pin": "5"}}}}, "view": {"header": {"title": [{"type": "label", "text": "GPIO"}]}, "table": []}}}'
+++Sent raw: b'\x81\xa3w\xcb\x87\x8d\x0c\xe9\xe2\xfb\x12\xa5\xf3\xd2\x03\xb2\xf7\xe8U\xf1\xa7\xaf\x07\xa2\xe9\xeaU\xe7\xa7\xaf\x12\xbd\xe2\xe3\x03\xe9\xbd\xad\x0c\xb6\xfa'
+[2024-10-31 20:11:48,057] [   DEBUG] _logging.py:94 - ++Sent raw: b'\x81\xa3w\xcb\x87\x8d\x0c\xe9\xe2\xfb\x12\xa5\xf3\xd2\x03\xb2\xf7\xe8U\xf1\xa7\xaf\x07\xa2\xe9\xeaU\xe7\xa7\xaf\x12\xbd\xe2\xe3\x03\xe9\xbd\xad\x0c\xb6\xfa'
+++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+[2024-10-31 20:11:48,129] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+++Rcv raw: b'\x81~\x01q{"event_type": "hid_state", "event": {"online": true, "busy": false, "connected": null, "keyboard": {"online": true, "leds": {"caps": true, "scroll": false, "num": true}, "outputs": {"available": [], "active": ""}}, "mouse": {"outputs": {"available": [], "active": ""}, "online": true, "absolute": true}, "jiggler": {"enabled": false, "active": false, "interval": 60}}}'
+检测到连接可能断开，尝试重新连接...
+等待 1 秒后尝试重连...
+[2024-10-31 20:11:48,506] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81~\x01q{"event_type": "hid_state", "event": {"online": true, "busy": false, "connected": null, "keyboard": {"online": true, "leds": {"caps": true, "scroll": false, "num": true}, "outputs": {"available": [], "active": ""}}, "mouse": {"outputs": {"available": [], "active": ""}, "online": true, "absolute": true}, "jiggler": {"enabled": false, "active": false, "interval": 60}}}'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "hid_state", "event": {"online": true, "busy": false, "connected": null, "keyboard": {"online": true, "leds": {"caps": true, "scroll": false, "num": true}, "outputs": {"available": [], "active": ""}}, "mouse": {"outputs": {"available": [], "active": ""}, "online": true, "absolute": true}, "jiggler": {"enabled": false, "active": false, "interval": 60}}}'
+[2024-10-31 20:12:40,278] [   DEBUG] _logging.py:94 - ++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "hid_state", "event": {"online": true, "busy": false, "connected": null, "keyboard": {"online": true, "leds": {"caps": true, "scroll": false, "num": true}, "outputs": {"available": [], "active": ""}}, "mouse": {"outputs": {"available": [], "active": ""}, "online": true, "absolute": true}, "jiggler": {"enabled": false, "active": false, "interval": 60}}}'
+++Sent raw: b'\x88\x82\xb8{h\x81\xbb\x93'
+[2024-10-31 20:12:41,767] [   DEBUG] _logging.py:94 - ++Sent raw: b'\x88\x82\xb8{h\x81\xbb\x93'
+++Sent decoded: fin=1 opcode=8 data=b'\x03\xe8'
+[2024-10-31 20:12:42,131] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=8 data=b'\x03\xe8'
+正在连接到 WebSocket... (第 1 次尝试)
+--- request header ---
+[2024-10-31 20:15:19,094] [   DEBUG] _logging.py:71 - --- request header ---
+Killed
+qyd@qyd:~/projects/kvmd-api-snapshot$ ++Sent raw: b'\x81\xa3\xd5\xcf\n\xcf\xae\xedo\xb9\xb0\xa1~\x90\xa1\xb6z\xaa\xf7\xf5*\xed\xa5\xa6d\xa8\xf7\xe3*\xed\xb0\xb9o\xa1\xa1\xed0\xef\xae\xb2w'
+[2024-10-31 14:54:44,034] [   DEBUG] _logging.py:94 - ++Sent raw: b'\x81\xa3\xd5\xcf\n\xcf\xae\xedo\xb9\xb0\xa1~\x90\xa1\xb6z\xaa\xf7\xf5*\xed\xa5\xa6d\xa8\xf7\xe3*\xed\xb0\xb9o\xa1\xa1\xed0\xef\xae\xb2w'
+++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+[2024-10-31 14:54:44,035] [   DEBUG] _logging.py:94 - ++Sent decoded: fin=1 opcode=1 data=b'{"event_type": "ping", "event": {}}'
+++Rcv raw: b'\x81~\x02\x14{"event_type": "info_hw_state", "event": {"platform": {"type": "rpi", "base": "Raspberry Pi 4 Model B Rev 1.5", "serial": "10000000d4615892", "model": "v3", "video": "hdmi", "board": "rpi4"}, "health": {"temp": {"cpu": 33.589}, "cpu": {"percent": 3}, "mem": {"percent": 4.1, "total": 8222543872, "available": 7887888384}, "throttling": {"raw_flags": 0, "parsed_flags": {"undervoltage": {"now": false, "past": false}, "freq_capped": {"now": false, "past": false}, "throttled": {"now": false, "past": false}}, "ignore_past": false}}}}'
+[2024-10-31 14:54:44,035] [   DEBUG] _logging.py:94 - ++Rcv raw: b'\x81~\x02\x14{"event_type": "info_hw_state", "event": {"platform": {"type": "rpi", "base": "Raspberry Pi 4 Model B Rev 1.5", "serial": "10000000d4615892", "model": "v3", "video": "hdmi", "board": "rpi4"}, "health": {"temp": {"cpu": 33.589}, "cpu": {"percent": 3}, "mem": {"percent": 4.1, "total": 8222543872, "available": 7887888384}, "throttling": {"raw_flags": 0, "parsed_flags": {"undervoltage": {"now": false, "past": false}, "freq_capped": {"now": false, "past": false}, "throttled": {"now": false, "past": false}}, "ignore_past": false}}}}'
+++Rcv decoded: fin=1 opcode=1 data=b'{"event_type": "info_hw_state", "event": {"platform": {"type": "rpi", "base": "Raspberry Pi 4 Model B Rev 1.5", "serial": "10000000d4615892", "model": "v3", "video": "hdmi", "board": "rpi4"}, "health": {"temp": {"cpu": 33.589}, "cpu": {"percent": 3}, "mem": {"percent": 4.1, "total": 8222543872, "available": 7887888384}, "throttling": {"raw_flags": 0, "parsed_flags": {"undervoltage": {"now": false, "past": false}, "freq_capped": {"now": false, "past": false}, "throttl"freq_capped": {"now": false, "past": false}, "throttled": {"now": false, "past": false}}, "ignore_past": false}}}}'": false},

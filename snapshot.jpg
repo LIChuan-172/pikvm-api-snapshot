@@ -1,7 +1,0 @@
-{
-    "ok": false,
-    "result": {
-        "error": "UnavailableError",
-        "error_msg": "Service Unavailable"
-    }
-}
